@@ -1,66 +1,85 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
     font-family: sans-serif;
     text-align: center;
     background-color: blanchedalmond;
-
-}
-header{
-    background-color:orange;
-    padding: 2px;
-    margin: 2px;
-    font-family: ;
-}
-.red{
-    color: red;
-    font-style:italic;
-}
-.rod{
-    background-color: gray;
-    border-radius: 120px ;
-    padding: 5px;
-    margin: 5px;
-}
-footer{
+  }
+  
+  header {
     background-color: orange;
-    padding: 5px;
-    margin: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .red {
+    color: red;
+    font-style: italic;
+  }
+  
+  footer {
+    background-color: orange;
+    padding: 10px;
+    margin-top: 10px;
     font-size: larger;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  a {
     color: aliceblue;
-}
-.news{
- width:40%;
- border: 5px groove black;
- border-radius: 25px;
- display:flex;
- justify-content: space-between;
-}
-.oo{
+  }
+  
+  .news {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+   
+
+  .oo {
     text-transform: uppercase;
     font-weight: 900;
     font-size: larger;
     color: brown;
     border: 5px dotted black;
     border-radius: 25px;
+    display: inline-block;
+    padding: 10px;
+  }
+  
 
-}
-.dd{
-    font-family:Italian;
-}
-.gg{
-    flex-wrap:wrap;
-    
-}
-span{
-    color:rgb(4, 2, 136);
-}
-.flex{
-   display:flex;
-    flex-wrap:wrap;
-}
-img{
-    border-radius:20px;
-}
-
+  .dd {
+    font-family: Arial, sans-serif;
+    margin: 10px auto;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .gg {
+    flex-wrap: wrap;
+  }
+  
+  span {
+    color: rgb(4, 2, 136);
+  }
+  
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+  img {
+    border: 6px groove black;
+    padding: 2px; 
+    border-radius: 20px;
+    height: 250px;
+    width: auto;
+  }
