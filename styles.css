@@ -49,12 +49,14 @@
     border-radius: 25px;
     display: inline-block;
     padding: 10px;
+    margin:15px;
+    background-color: rgb(245, 244, 244);
   }
   
 
   .dd {
     font-family: Arial, sans-serif;
-    margin: 10px auto;
+    margin: 15px auto;
     width: 80%;
     text-align: center;
   }
@@ -71,9 +73,14 @@
     display: flex;        
     flex-wrap: wrap;       
     justify-content: center; 
-    margin: 0 auto;
-    width: 80%;
+    margin: 0px auto;
+    width: 90%;
     gap: 10px;
+    background-color:rgb(255, 181, 69);
+    border-radius: 90px;
+    padding:5px;
+    border:10px groove;
+  
   }
   
   img {
