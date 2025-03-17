@@ -32,9 +32,10 @@ a{
 }
 .news{
  width:40%;
- margin: 5px;
  border: 5px groove black;
  border-radius: 25px;
+ display:flex;
+ justify-content: space-between;
 }
 .oo{
     text-transform: uppercase;
@@ -55,3 +56,11 @@ a{
 span{
     color:rgb(4, 2, 136);
 }
+.flex{
+   display:flex;
+    flex-wrap:wrap;
+}
+img{
+    border-radius:20px;
+}
+
